@@ -87,3 +87,28 @@ header {
 .iphone-11-pro {
     border-top: none;
 }
+
+.title {
+    color: white;
+    text-align: center;
+    padding-top: 5.5rem;
+}
+
+.title-heading {
+    font-size: 5.6rem;
+    line-height: 1.07143;
+    letter-spacing: -0.005rem;
+}
+
+.title-sub-heading {
+    font-size: 2.65rem;
+    margin-top: .6rem;
+    letter-spacing: .008rem;
+    font-weight: 400;
+}
+
+.title-price {
+    font-size: 1.7rem;
+    color: #888;
+    margin-top: .68rem;
+}
