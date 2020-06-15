@@ -85,30 +85,49 @@ header {
 }
 
 .iphone-11-pro {
-    border-top: none;
+  border-top: none;
 }
 
 .title {
-    color: white;
-    text-align: center;
-    padding-top: 5.5rem;
+  color: white;
+  text-align: center;
+  padding-top: 5.5rem;
 }
 
 .title-heading {
-    font-size: 5.6rem;
-    line-height: 1.07143;
-    letter-spacing: -0.005rem;
+  font-size: 5.6rem;
+  line-height: 1.07143;
+  letter-spacing: -0.005rem;
 }
 
 .title-sub-heading {
-    font-size: 2.65rem;
-    margin-top: .6rem;
-    letter-spacing: .008rem;
-    font-weight: 400;
+  font-size: 2.65rem;
+  margin-top: 0.6rem;
+  letter-spacing: 0.008rem;
+  font-weight: 400;
 }
 
 .title-price {
-    font-size: 1.7rem;
-    color: #888;
-    margin-top: .68rem;
+  font-size: 1.7rem;
+  color: #888;
+  margin-top: 0.68rem;
+}
+
+.cta {
+  text-align: center;
+  margin-top: 1.8rem;
+}
+
+.cta-link {
+  color: #66bbff;
+  font-size: 2.1rem;
+  display: inline-block;
+}
+
+.cta-link:nth-child(2) {
+  margin-left: 2.6rem;
+}
+
+.cta-link:hover {
+  border-bottom: 2px solid #66bbff;
 }
