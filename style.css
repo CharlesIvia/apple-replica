@@ -1,3 +1,5 @@
+/* Global */
+
 *,
 ::before,
 ::after {
@@ -20,6 +22,8 @@ a {
   margin: 0 auto;
   padding: 0 2.2rem;
 }
+
+/* Header */
 
 header {
   position: fixed;
@@ -70,22 +74,11 @@ header {
   background: url("images/icons/bag.svg") center no-repeat;
 }
 
+/* .iphone-11-pro */
+
 .iphone-11-pro {
   background: url("images/hero/iphone-11-pro/iphone_11_pro_large.jpg");
   margin-top: 4.4rem;
-}
-
-.hero {
-  height: 69.2rem;
-  background-size: auto 73.6rem;
-  background-position: center;
-  background-repeat: no-repeat;
-  border-top: 0.6rem solid white;
-  border-bottom: 0.6rem solid white;
-}
-
-.iphone-11-pro {
-  border-top: none;
 }
 
 .title {
@@ -131,3 +124,54 @@ header {
 .cta-link:hover {
   border-bottom: 2px solid #66bbff;
 }
+
+/* iPhone 11 section */
+
+.iphone-11 {
+  background: url("images/hero/iphone-11/iphone_11_large.jpg");
+}
+
+.title-dark {
+    color: black;
+}
+
+.cta-link-darker {
+    color: #0070c9;
+}
+
+.cta-link-darker:hover {
+    border-bottom-color: #0070c9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Move to bottom of section styles for consistency */
+.hero {
+    height: 69.2rem;
+    background-size: auto 73.6rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top: 0.6rem solid white;
+    border-bottom: 0.6rem solid white;
+  }  
+  .iphone-11-pro {
+    border-top: none;
+  }
+  
+  /* End */
