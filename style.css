@@ -265,10 +265,21 @@ header {
   }
 
   .line-top {
-      margin-top: 3px;
+    margin-top: 3px;
   }
 
   .line-bottom {
-      margin-top: -.4rem;
+    margin-top: -0.4rem;
+  }
+
+  .active .line-top {
+    margin-top: 0;
+    transform: rotate(45deg);
+    transition: transform 0.3192s 0.1s cubic-bezier(0.04, 0.04, 0.12, 0.96);
+  }
+  .active .line-bottom {
+    margin-top: 0;
+    transform: rotate(-45deg);
+    transition: transform 0.3192s 0.1s cubic-bezier(0.04, 0.04, 0.12, 0.96);
   }
 }
