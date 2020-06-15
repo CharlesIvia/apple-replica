@@ -132,46 +132,39 @@ header {
 }
 
 .title-dark {
-    color: black;
+  color: black;
 }
 
 .cta-link-darker {
-    color: #0070c9;
+  color: #0070c9;
 }
 
 .cta-link-darker:hover {
-    border-bottom-color: #0070c9;
+  border-bottom-color: #0070c9;
 }
 
+.watch {
+    background: url("images/hero/watch/watch_large.jpg");
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.title-heading-watch {
+  height: 7.8rem;
+  background: url("images/hero/watch/logo_watch_medium.png") center no-repeat;
+  background-size: auto 7.8rem;
+  margin-top: 1.6rem;
+}
 
 /* Move to bottom of section styles for consistency */
 .hero {
-    height: 69.2rem;
-    background-size: auto 73.6rem;
-    background-position: center;
-    background-repeat: no-repeat;
-    border-top: 0.6rem solid white;
-    border-bottom: 0.6rem solid white;
-  }  
-  .iphone-11-pro {
-    border-top: none;
-  }
-  
-  /* End */
+  height: 69.2rem;
+  background-size: auto 73.6rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-top: 0.6rem solid white;
+  border-bottom: 0.6rem solid white;
+}
+.iphone-11-pro {
+  border-top: none;
+}
+
+/* End */
