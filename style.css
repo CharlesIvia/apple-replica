@@ -205,3 +205,31 @@ header {
     background-size: auto 6.2rem;
   }
 }
+
+@media screen and (max-width: 767px) {
+  header {
+    height: 4.8rem;
+    transition: background 0.36s cubic-bezier(0.32, 0.08, 0.24, 1),
+      height 0.56s cubic-bezier(0.32, 0.08, 0.24, 1);
+  }
+
+  .header .container {
+    padding: 0;
+  }
+
+  .iphone-11-pro {
+    margin-top: 4.8rem;
+  }
+
+  .nav-list-larger {
+    display: none;
+  }
+
+  .nav-list {
+      margin-top: 0;
+  }
+
+  .nav-list-mobile {
+      display: flex;
+  }
+}
