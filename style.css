@@ -69,3 +69,21 @@ header {
   height: 4.4rem;
   background: url("images/icons/bag.svg") center no-repeat;
 }
+
+.iphone-11-pro {
+  background: url("images/hero/iphone-11-pro/iphone_11_pro_large.jpg");
+  margin-top: 4.4rem;
+}
+
+.hero {
+  height: 69.2rem;
+  background-size: auto 73.6rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-top: 0.6rem solid white;
+  border-bottom: 0.6rem solid white;
+}
+
+.iphone-11-pro {
+    border-top: none;
+}
