@@ -317,6 +317,7 @@ header {
     padding: 10.5rem 5rem;
     z-index: 1000;
     box-sizing: border-box;
+    opacity: 0;
     transition: opacity 0.3s;
   }
 
@@ -329,5 +330,28 @@ header {
   .active .nav-link-bag {
     opacity: 0;
     transition: opacity 0.3s;
+  }
+
+  .nav-list-larger .nav-item {
+    width: 100%;
+    justify-content: flex-start;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .nav-list-larger .nav-item:nth-child(9) {
+    border-bottom: none;
+  }
+
+  .active .nav-list-larger .nav-item {
+    animation: fadein 1s ease-in;
+  }
+  @keyframes fadein {
+    from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
   }
 }
